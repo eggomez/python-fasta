@@ -1,8 +1,6 @@
 #!/usr/bin/env python
-# coding: utf-8
 
-# In[ ]:
-
+import sys
 
 def read_fasta(filename):
     """
@@ -17,5 +15,5 @@ def read_fasta(filename):
             seq = seq + line
     f.close()
     return seq
-print(read_fasta('Downloads/python-fasta/ae.fa'))
+print(read_fasta(sys.argv[1]))
 
