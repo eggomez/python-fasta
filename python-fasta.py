@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#fun!
 
 import sys
 
